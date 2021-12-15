@@ -69,6 +69,10 @@ public class KorToBraille {
         let components = input.components(separatedBy: " ") // 띄어쓰기 단위로 끊음
         
         for word in components{
+            if word == "" {
+                continue
+            }
+            
             var word_translatedNumber = translateNumber(text: word) // (1) 숫자 번역
             word_translatedNumber = translatePunc(text: word_translatedNumber) //(2) 문장부호 번역
             result += korWordToBraille(word_translatedNumber) // (3) 한글 번역
