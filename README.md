@@ -1,6 +1,6 @@
 # KorToBraille
 
-## 한국어를 점자로 번역하는 Swift Package Manager
+## 한글을 점자로 번역하는 Swift Package Manager
 
 지원하는 번역 기능:
 - 한글 문장
