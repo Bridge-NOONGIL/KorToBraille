@@ -1,5 +1,11 @@
 # 한글을 점자로 번역하는 Swift Package Manager⭐️
 
+### Swift Package Manager
+ ```Swift
+dependencies: [
+    .package(url: "https://github.com/Bridge-NOONGIL/KorToBraille.git", .upToNextMajor(from: "1.0.2"))
+]
+ ```
 ### 사용 방법
 1. Xcode에서 `Package Dependencies`에서 해당 레포의 URL을 복사해서 검색, 적용
 2. `import KorToBraille`
